@@ -9,7 +9,9 @@
     <h1>Preencha os campos abaixo para doar seu bichinho</h1>
         <form class="card" onsubmit="enviar()">
            
-            <input type="radio" name="sexo" id="sexo">
+            <legend>Sexo:</legend>
+           <label for="maculino"><input type="radio" name="masculino" id="maculino"> Maculino</label>
+           <label for="feminino"><input type="radio" name="feminino" id="feminino"> Feminino</label>
             
             <label for="nome">Nome:</label>
             <input type="text" name="nome" id="nome">
@@ -18,7 +20,7 @@
             <input type="number" name="idade" id="idade">
             
             <label for="local">Local:</label>
-            <input type="local" name="local" id="local">
+            <input type="datetime-local" name="local" id="local">
         
         </form>
     </div>
