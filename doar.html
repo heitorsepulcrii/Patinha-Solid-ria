@@ -9,18 +9,26 @@
     <h1>Preencha os campos abaixo para doar seu bichinho</h1>
         <form class="card" onsubmit="enviar()">
            
-            <legend>Sexo:</legend>
-           <label for="sexo"><input type="radio" name="sexo" id="masculino"> Maculino</label>
-           <label for="sexo"><input type="radio" name="sexo" id="feminino"> Feminino</label>
+           <div id="sexo">
+               <legend>Sexo:</legend>
+               <label for="sexo"><input type="radio" name="sexo" id="masculino"> Maculino</label>
+               <label for="sexo"><input type="radio" name="sexo" id="feminino"> Feminino</label>
+           </div>
             
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome">
+            <div id="nome">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite o nome">
+            </div>
             
-            <label for="idade">Idade:</label>
-            <input type="number" name="idade" id="idade">
+            <div id="idade">
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" placeholder="Meses">
+            </div>
             
-            <label for="local">Local:</label>
-            <input type="datetime-local" name="local" id="local">
+            <div id="local">
+                <label for="local">Local:</label>
+                <input type="text" name="local" id="local" placeholder="Cidade,Estado" >
+            </div>
         
         </form>
     </div>
